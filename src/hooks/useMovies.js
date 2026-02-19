@@ -16,7 +16,7 @@ export function useMovies(query, callback) {
           setError("");
           const res = await fetch(
             `https://www.omdbapi.com/?apikey=${KEY}&s=${query}`,
-            { signal: controller.signal }
+            { signal: controller.signal },
           );
           if (!res.ok)
             throw new Error("Something went wrong with fetching movies");
@@ -44,7 +44,7 @@ export function useMovies(query, callback) {
         controller.abort();
       };
     },
-    [query]
+    [query],
   );
   return { movies, isLoading, error };
 }
