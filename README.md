@@ -1,7 +1,7 @@
 # 🍿 usePopcorn
 
 A simple React app that lets you browse movies fetched from the [OMDb API](https://www.omdbapi.com/) and create your own **“Watched List”** with personal ratings.  
-This project demonstrates key React concepts like controlled components, conditional rendering, lifting state up, and the use of React Hooks (`useState`, `useEffect`, `useRef`).
+This project demonstrates key React concepts like controlled components, conditional rendering, lifting state up, the use of React Hooks (`useState`, `useEffect`, `useRef`) and the creation of custom hooks.
 
 ---
 
