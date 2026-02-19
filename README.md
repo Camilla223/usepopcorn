@@ -21,3 +21,21 @@ This project demonstrates key React concepts like controlled components, conditi
 - **React** – UI library  
 - **JavaScript (ES6+)** – For modern syntax and logic  
 - **OMDb API** – For fetching real movie data  
+
+
+## 💻 Getting Started
+
+To run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/Camilla223/usepopcorn.git
+
+# Navigate to the folder
+cd usepopcorn
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
